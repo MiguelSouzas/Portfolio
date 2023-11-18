@@ -1,9 +1,9 @@
 import './title.css'
 
-const Title = ({ title }) => {
+const Title = ({ title, style }) => {
     return (
         <>
-            <h1 className="title">{title}</h1>
+            <h1 className="title" style={style}>{title}</h1>
         </>
     )
 }

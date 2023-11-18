@@ -3,7 +3,7 @@ import Button from "../button/AppButton"
 const Hire = () => {
     return (
         <>
-            <Button style="" label="Hire me"/>
+            <Button style=" btn hireMe" label="Hire me"/>
         </>
     )
 }

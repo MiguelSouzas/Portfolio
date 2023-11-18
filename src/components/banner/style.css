@@ -1,0 +1,10 @@
+.background-banner {
+    background-color: #31065A;
+    width: auto;
+    height: 776px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

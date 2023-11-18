@@ -1,0 +1,12 @@
+.background-main {
+    background-color: #170550;
+    width: auto;
+    height: 85px;
+    
+}
+
+.position {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

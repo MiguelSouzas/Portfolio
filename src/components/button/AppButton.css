@@ -1,4 +1,35 @@
+.btn {
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
 .btn-header {
     background-color: transparent;
     border: transparent;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hireMe {
+    font-size: 15px;
+    color: #461959;
+    background-color: white;
+    border-radius: 20px;
+    border: 0px transparent;
+    width: 135px;
+    height: 35px;
+}
+
+.btn-header:hover {
+    color: #F86F03;
+    transition: 0.5s;
+}
+
+.hireMe:hover {
+    color: white;
+    background-color: #F86F03;
+    transition: 0.3s;
+
 }

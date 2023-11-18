@@ -6,10 +6,11 @@ import "./style.css"
 const AppHeader = () => {
     return (
         <>
+        <div className="background-main position">
             <Logo/>
             <Menu/>
             <Hire/>
-            
+        </div>    
         </>
     )
 }
