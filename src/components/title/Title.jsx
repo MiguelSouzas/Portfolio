@@ -1,9 +1,22 @@
 import './title.css'
 
-const Title = ({ title, style }) => {
+const Title = ({ labelFirstWord, labelSecondWord }) => {
     return (
         <>
-            <h1 className="title" style={style}>{title}</h1>
+            <h1 className="title">
+                {
+                (labelFirstWord && labelSecondWord)
+                    ?
+                        (
+                            <>
+                            <span className='first-word'>{labelFirstWord} </span>
+                            <span className='second-word'> {labelSecondWord}</span>
+                            </>
+                        )
+                    :
+                        <span className='first-word'>{labelFirstWord}</span>
+                }
+            </h1>
         </>
     )
 }
