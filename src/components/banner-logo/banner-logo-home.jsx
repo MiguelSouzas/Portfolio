@@ -1,7 +1,7 @@
 import "./style.css"
 import BannerL from "../../images/banner.webp"
 
-const BannerLogo = () => {
+const BannerLogoHome = () => {
     return (
         <>
             <div>
@@ -11,4 +11,4 @@ const BannerLogo = () => {
     )
 }
 
-export default BannerLogo
+export default BannerLogoHome

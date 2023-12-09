@@ -1,12 +1,12 @@
-import Banner from '../components/banner/AppBanner'
+import About from "../components/aplic/AppAbout"
 
-const About = () => {
+const AboutMe = () => {
     return (
         <>
-            <Banner/>
+            <About/>
         </>
         
     )
 }
 
-export default About
+export default AboutMe
